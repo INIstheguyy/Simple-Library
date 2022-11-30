@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <lmeta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <h1>SIMPLE LIBRARY</h1>
+    <div id='newBtn-Container'>
+        <button id='newBtn'>+ New Book</button>
+    </div>
+    <div class="formContainer">
+        <form class="form" action="">
+            <div class="topBar">
+                <p>New Book</p>
+                <span class="close" id="close" >&times; </span>
+            </div>
+            <label for="title">TITLE</label>
+            <input type="text"name="title" id="titleTxt" placeholder="Title of the book..." required>
+            <label for="author">AUTHOR </label>
+            <input type="text"name="author" id="authorTxt" placeholder="Author of the book..."required>
+            <label for="pages">PAGES</label>
+            <input type="number"name="pages" id="pagesTxt" placeholder="Number of pages..."required >
+            <div id="readblock">
+                <label id="read" for="read">READ
+                    <input type="checkbox" id="readTxt"  name="read" required >
+                </label>
+            </div>
+            <input class="submit"  id="submit" type="submit" value="submit" name="submit">
+        </form>
+    </div>
+    <section id="libraryContainer">
+        <!-- <div class="book">
+            <div class="card">
+                <p class="title">INIOLUWA
+                    <p class="author" >Komolafe</p>
+                    <p class="pages" >23pgs</p>
+            </div>
+            <div class="card">
+                <p class="title">INIOLUWA
+                    <p class="author" >Komolafe</p>
+                    <p class="pages" >23pgs</p>
+            </div>
+            <div class="card">
+                <p class="title">INIOLUWA
+                    <p class="author" >Komolafe</p>
+                    <p class="pages" >23pgs</p>
+            </div>
+            <div class="card">
+                <p class="title">INIOLUWA
+                    <p class="author" >Komolafe</p>
+                    <p class="pages" >23pgs</p>
+            </div>
+        </div> -->
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
