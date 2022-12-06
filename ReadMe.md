@@ -2,4 +2,4 @@
 This project was created using :
 - HTML
 - CSS
-- Vanila JS
+- Vanila JS 
